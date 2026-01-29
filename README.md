@@ -68,6 +68,7 @@ python -m pip install -r requirements.txt
 ```bash
 python src/inference.py  
 python src/evaluation.py
+streamlit run src/app.py
 ```
 
 (note the source code is pretrained, if you would like retrain the dataset on your own to select a different optim epoch, 
