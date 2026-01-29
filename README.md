@@ -51,6 +51,30 @@ The dataset is already anonymized and suitable for academic use.
 
 ---
 
+## Running Script
+- First activate virtual environment:
+
+```bash
+py -3.11 -m venv .venv  
+.\.venv\Scripts\activate
+```
+- Install dependencies:
+
+```bash
+python -m pip install -r requirements.txt
+```
+- Run project files:
+  
+```bash
+python src/inference.py  
+python src/evaluation.py
+```
+
+(note the source code is pretrained, if you would like retrain the dataset on your own to select a different optim epoch, 
+run python src/train.py and replace G_epoch_100.pth with desired epoch)
+
+---
+
 ## Project Structure
 
 ```text
