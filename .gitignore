@@ -1,0 +1,13 @@
+pycache/
+*.pyc
+
+.venv/
+
+data/
+samples/
+logs/
+
+checkpoints/*.pth
+
+.DS_Store
+Thumbs.db

@@ -1,0 +1,8 @@
+torch
+torchvision
+torchaudio
+medmnist
+numpy
+scipy
+matplotlib
+streamlit
